@@ -49,9 +49,9 @@ List of key combinations:
     - CapsLock + ' = F11
     - CapsLock + ¡ = F12
     - CapsLock + Backspace = Delete
-    - CapsLock + x = Volume Up
-    - CapsLock + z = Volume Down
-    - CapsLock + c = Volume Mute
+    - CapsLock + c = Volume Up
+    - CapsLock + x = Volume Down
+    - CapsLock + z = Volume Mute
     - CapsLock + p = PrintScreen
 	- CapsLock + Shift = CapsLock
 

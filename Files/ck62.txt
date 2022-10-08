@@ -1,4 +1,5 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿; # Author: JuanRodenas
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -30,9 +31,9 @@ CapsLock & ':: Send {F11}
 CapsLock & ¡:: Send {F12}
 ;
 if GetKeyState("Shift")
-	Send, ª
+	Send {~}
 else
-	Send, º
+	Send {``}
 return
 ;
 CapsLock & Backspace:: Send {Delete}
@@ -40,9 +41,9 @@ CapsLock & Backspace:: Send {Delete}
 CapsLock & P:: Send {PrintScreen}
 ;
 ; Volume
-CapsLock & x:: Send {vkAFsc130} ;Volume up
-CapsLock & z:: Send {vkAEsc12e} ;Volume down
-CapsLock & c:: Send {vkADsc140} ;Volume mute
+CapsLock & c:: Send {vkAFsc130} ;Volume up
+CapsLock & x:: Send {vkAEsc12e} ;Volume down
+CapsLock & z:: Send {vkADsc140} ;Volume mute
 ;
 ; Multimedia
 CapsLock & v:: Send {Media_Prev}
@@ -51,37 +52,12 @@ CapsLock & n:: Send {Media_Stop}
 CapsLock & m:: Send {Media_Play_Pause}
 ;
 ; Add extra keys:
-!z::
-Send, <
-return
-;
-!x::
-Send, >
-return
-;
-<^>!+z::
-Send, <
-return
-;
-<^>!+x::
-Send, >
-return
-;
-<^>!z::
-Send, <
-return
-;
-<^>!x::
-Send, >
-return
+CapsLock & ,:: Send {<}
+CapsLock & .:: Send {>}
 ;
 <^>!'::
 Send, \
 return
-;
-;<^>!¡::
-;Send, ~
-;return
 ;
 <^>!-::
 Send, \
