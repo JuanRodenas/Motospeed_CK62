@@ -37,8 +37,6 @@ return
 ;
 CapsLock & Backspace:: Send {Delete}
 ^CapsLock:: Send {CapsLock}
-CapsLock & ,:: Send {<}
-CapsLock & .:: Send {>}
 CapsLock & P:: Send {PrintScreen}
 ;
 ; Volume

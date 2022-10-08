@@ -30,10 +30,10 @@ List of key combinations:
     - CapsLock + s = Down
     - CapsLock + a = Left
     - CapsLock + d = Right
-    - CapsLock + k = Home
-    - CapsLock + l = End
-    - CapsLock + m = PageUp
-    - CapsLock + n = PageDown
+    - CapsLock + k = End
+    - CapsLock + l = Home
+    - CapsLock + ñ = PageUp
+    - CapsLock + ´ = PageDown
     - CapsLock + Esc = º
     - CapsLock + Esc + Shift = ª
     - CapsLock + 1 = F1
@@ -46,13 +46,14 @@ List of key combinations:
     - CapsLock + 8 = F8
     - CapsLock + 9 = F9
     - CapsLock + 10 = F10
-    - CapsLock + i = F11
-    - CapsLock + o = F12
+    - CapsLock + ' = F11
+    - CapsLock + ¡ = F12
     - CapsLock + Backspace = Delete
-    - CapsLock + h = Volume Up
-    - CapsLock + g = Volume Down
-    - CapsLock + f = Volume Mute
+    - CapsLock + x = Volume Up
+    - CapsLock + z = Volume Down
+    - CapsLock + c = Volume Mute
     - CapsLock + p = PrintScreen
+	- CapsLock + Shift = CapsLock
 
 List of extra key combinations:
 
@@ -64,6 +65,14 @@ List of extra key combinations:
     - AltGr + x = >
     - AltGr + Esc = \
 
+List of extra key multimedia:
+
+    - CapsLock + z = Media_Prev
+    - CapsLock + z = Media_Next
+    - CapsLock + z = Media_Stop
+    - CapsLock + z = Media_Play_Pause
+
+	
 ### Enlaces externos:
 
 * [AutoHotKey homepage](https://www.autohotkey.com/)
