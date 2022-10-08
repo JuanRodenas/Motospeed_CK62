@@ -2,9 +2,9 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
+;
 SetCapsLockState, AlwaysOff
-
+;
 ; Arrows Alternative
 CapsLock & w:: Send {Up}
 CapsLock & s:: Send {Down}
@@ -14,7 +14,7 @@ CapsLock & l:: Send {Home}
 CapsLock & k:: Send {End}
 CapsLock & ñ:: Send {PgUp}
 CapsLock & ´:: Send {PgDn}
-
+;
 ; Functions
 CapsLock & 1:: Send {F1}
 CapsLock & 2:: Send {F2}
@@ -28,26 +28,67 @@ CapsLock & 9:: Send {F9}
 CapsLock & 0:: Send {F10}
 CapsLock & ':: Send {F11}
 CapsLock & ¡:: Send {F12}
-
+;
 if GetKeyState("Shift")
-	Send {~}
+	Send, ª
 else
-	Send {``}
+	Send, º
 return
-
+;
 CapsLock & Backspace:: Send {Delete}
 ^CapsLock:: Send {CapsLock}
 CapsLock & ,:: Send {<}
 CapsLock & .:: Send {>}
 CapsLock & P:: Send {PrintScreen}
-
+;
 ; Volume
 CapsLock & x:: Send {vkAFsc130} ;Volume up
 CapsLock & z:: Send {vkAEsc12e} ;Volume down
 CapsLock & c:: Send {vkADsc140} ;Volume mute
-
+;
 ; Multimedia
 CapsLock & v:: Send {Media_Prev}
 CapsLock & b:: Send {Media_Next}
 CapsLock & n:: Send {Media_Stop}
 CapsLock & m:: Send {Media_Play_Pause}
+;
+; Add extra keys:
+!z::
+Send, <
+return
+;
+!x::
+Send, >
+return
+;
+<^>!+z::
+Send, <
+return
+;
+<^>!+x::
+Send, >
+return
+;
+<^>!z::
+Send, <
+return
+;
+<^>!x::
+Send, >
+return
+;
+<^>!'::
+Send, \
+return
+;
+;<^>!¡::
+;Send, ~
+;return
+;
+<^>!-::
+Send, \
+return
+;
+<^>!*Escape::
+Send, \
+return
