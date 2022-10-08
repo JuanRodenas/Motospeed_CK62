@@ -37,7 +37,7 @@ else
 return
 ;
 CapsLock & Backspace:: Send {Delete}
-^CapsLock:: Send {CapsLock}
+^CapsLock::CapsLock
 CapsLock & P:: Send {PrintScreen}
 ;
 ; Volume
@@ -54,15 +54,4 @@ CapsLock & m:: Send {Media_Play_Pause}
 ; Add extra keys:
 CapsLock & ,:: Send {<}
 CapsLock & .:: Send {>}
-;
-<^>!'::
-Send, \
-return
-;
-<^>!-::
-Send, \
-return
-;
-<^>!*Escape::
-Send, \
-return
+CapsLock & Escape:: Send {\}

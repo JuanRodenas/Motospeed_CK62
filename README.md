@@ -57,13 +57,9 @@ List of key combinations:
 
 List of extra key combinations:
 
-    - Alt + z = <
-    - Alt + x = >
-    - AltGr + Shift (Left) + z = <
-    - AltGr + Shift (Left) + x = >
-    - AltGr + z = <
-    - AltGr + x = >
-    - AltGr + Esc = \
+    - CapsLock + , = <
+    - CapsLock + . = >
+    - CapsLock + Esc = \
 
 List of extra key multimedia:
 
