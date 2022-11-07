@@ -1,6 +1,9 @@
 # Motospeed Layer for CK61 & CK62
 Configurar Autohotkey con Capslock para el teclado Motospeed ck62
 
+[![GitHub](https://img.shields.io/static/v1.svg?color=blue&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=JuanRodenas&message=GitHub&logo=github)](https://github.com/JuanRodenas "view the source for all of our repositories.")
+[![GitHub Release](https://img.shields.io/github/release/JuanRodenas/Motospeed_CK62.svg?color=blue&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/JuanRodenas/Motospeed_CK62/releases)
+
 ### Introducción:
 Mapeador para utilizar las flechas, F1-F12 y otras teclas con CapsLock (Windows) o Super (Linux) como función FN en el MotoSpeed CK61/CK62.
 
